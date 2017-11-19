@@ -3,6 +3,7 @@ background:red url(dak.jpg) top no-repeat;
 font-family:Arial, Helvetica, sans-serif;
 outline: none;
 color: white;
+font-size: 12px;
 }
 a { text-decoration:none }
 * {
