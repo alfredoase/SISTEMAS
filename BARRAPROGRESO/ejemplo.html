@@ -1,0 +1,33 @@
+<!-- @ Barras de progreso HTML5 animadas con Javascript
+     @ author Agustín Baraza (contacto@nosolocss.com)
+     @ Copyright 2014 nosolocss.com. All rights reserved
+     @ http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+     @ link http://www.nosolocss.com -->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Barras de progreso HTML5 animadas con Javascript</title>
+<link rel="stylesheet" href="style.css" />
+<script src="animateprogress.js"></script>
+</head>
+<body>
+
+<div class="center">
+		<div class="progress">
+			<progress id="html5" max="100" value="1"></progress>
+			<span></span>
+		</div>
+</div>
+
+<script type="text/javascript"> 
+	window.onload = function() { 
+		animateprogress("#html5",1);
+	} 	
+	document.querySelector ('#boton').addEventListener ('click', function() { 
+		animateprogress("#html5",1);
+	});
+</script>
+</body>
+</html>

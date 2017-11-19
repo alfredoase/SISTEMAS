@@ -1,0 +1,45 @@
+
+
+.clear{clear:both;}
+
+#boton{
+
+	width:120px;
+	height:30px;
+}
+
+progress[value] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	width: 270px;
+	height: 30px;
+	overflow:hidden;
+	border:1px inset #666;
+	background-color:rgba(255,146,10,1);
+	border-radius : 5px ; 
+}
+.progress{
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+}
+.progress span{	
+	font-weight:bold;
+}
+
+/* Compatibilidad de color en Firefox, Chrome y Safari */
+progress::-moz-progress-bar{ 
+	background: rgba(255,146,10,1);
+	border-radius : 5px ; 
+	} 
+progress::-webkit-progress-value { 
+	background: rgba(255,146,10,1);
+	border-radius : 5px ; 	
+
+}
+progress::-webkit-progress-bar { 
+	box-shadow: 0 2px 5px rgba(255,146,10,1) inset;
+	border-radius : 5px ; 
+}

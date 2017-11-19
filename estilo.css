@@ -1,0 +1,48 @@
+html,body{
+background:#e8e7e4 url(dak.jpg) top no-repeat;
+font-family:Arial, Helvetica, sans-serif;
+outline: none;
+color: white;
+}
+a { text-decoration:none }
+* {
+margin: 0px;
+}
+.cuerpo{
+height: auto;
+margin: 0 auto;
+position: absolute;
+left: 50%;
+margin-left:-200px;
+}
+.logo{
+	background-image: url(a.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 391px;
+	height: 404px;
+}
+.progress {
+	padding: 6px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+	width: 400px;
+}
+.progress-bar {
+    height: 24px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+	background-color: #e01e1e;
+	width: 1%;
+}
+.progress #progress-text {
+    font-size: 20%;
+	color: black;
+	padding: 2px;
+}
+.arriba{
+	position: relative;
+}
