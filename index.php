@@ -12,6 +12,7 @@
 	<div class="logo"></div>
 	<div class="progress">
 		<div class="progress-bar"></div>
+		<div class="progress-bar 2"></div>
 		<div id="progress-text">IN PROGRESS: 1%</div>
 	</div>
 </div>
